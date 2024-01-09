@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo cp -rvf index.html /var/www/html/index.html
+sudo systemctl stop apache2
+
